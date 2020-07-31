@@ -1,0 +1,29 @@
+<%- include("commons/header.ejs") -%>
+<div class="box" id="heading">
+  <h1>My TODO lists</h1>
+  <h1><%= listDate %></h1>
+</div>
+
+<form action="/lists" method="post" class="homebox">
+  <% collections.forEach(item => { %>
+  <div class="card">
+    <button type="submit" class="selectorbtn" value="<%= item %>" name="btn">
+      <%= item %>
+    </button>
+  </div>
+  <% }) %>
+</form>
+
+<form action="/lists" method="POST">
+  <input
+    type="text"
+    name="newListName"
+    class="newListName"
+    id="listName"
+    placeholder="Create New List"
+    autocomplete="off"
+  />
+  <button type="submit" name="submit" value="pressed" class="createbtn">+</button>
+</form>
+
+<%- include("commons/footer.ejs") -%>

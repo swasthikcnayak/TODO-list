@@ -1,0 +1,13 @@
+<%- include("commons/header.ejs") -%>
+<section>
+    <div class="row">
+        <div class="content-header">
+            <h6>ARE YOU NEW HERE?</h6>
+            <form action="/user" method="POST">
+            <button type="submit" class="signup" name="type" value="signup">signup</button>
+            <button type="submit" class="login" name="type" value="login">login</button>
+        </form>
+        </div>
+    </div>
+</section>
+<%- include("commons/footer.ejs") -%>

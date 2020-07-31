@@ -1,0 +1,220 @@
+html {
+  min-height: 1000px;
+  font-family: "helvetica neue";
+  background-repeat: no-repeat;
+  height: 100%;
+  background: rgb(31, 168, 164);
+  background: linear-gradient(
+    90deg,
+    rgba(31, 168, 164, 0.6504854368932038) 8%,
+    rgba(239, 253, 29, 0.7233009708737864) 46%,
+    rgba(68, 22, 10, 0.6432038834951457) 90%
+  );
+}
+
+h1 {
+  color: #fff;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.box {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #540ecc;
+  text-align: center;
+}
+
+.item {
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+form {
+  text-align: center;
+  margin-left: 20px;
+}
+
+.btn {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #46b911;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.newItem {
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 300px;
+}
+
+.newItem:focus {
+  outline: none;
+  box-shadow: inset 0 -10px 0 0 #a683e3;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  width: 30%;
+  left: 35%;
+  color: white;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+}
+
+.selectorbtn{
+  border-radius: 30%;
+  padding: 2%;
+  border: 0px;
+  margin: 3%;
+  background-color: rgb(38, 117, 73);
+  font-size: 2rem;
+ color: aliceblue;
+ cursor: pointer;
+}
+
+.selectorbtn:hover{
+  background-color: rgb(120, 212, 160);
+  color: black;
+}
+.card{
+  display: inline;
+  text-align: left;
+}
+
+.createbtn{
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #041be6;
+  color: #fff;
+  font-size: 2rem;
+  margin-left: 2%;
+  padding-bottom: 6px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.newListName{
+  text-align: center;
+  height: 60px;
+  top: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 200;
+  width: 300px;
+}
+
+
+.newListName:focus {
+  outline: none;
+  box-shadow: inset 0 -5px 0 0 #46b911;
+}
+
+.topnav{
+  position: sticky;
+  padding-top: 10px;
+  top:0;
+  overflow: hidden;
+  background: transparent;
+}
+.icon{
+  float: left;
+}
+.navbar{
+  float: right;
+}
+.topnav a {
+  color: #551a5a;  
+  text-align: center;
+  padding :0 10px;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.topnav navbar a:hover {
+  background-color: rgb(19, 7, 7);
+  color: rgb(255, 255, 255);
+}
+
+.row{
+  font-size: 2rem;
+  color: #b92a11;
+  text-align: center;
+  margin: 10%;
+}
+
+.homebtn{
+  font-size: 1.5rem;
+  padding: 2%;
+}
+.social-links a{
+  display: block;
+  margin: 2%;
+  width: fit-content;
+}
+
+.deletebtn{
+  min-height: 50px;
+  width: fit-content;
+  background-color: #b91111;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+.signup{
+  font-size: 2rem;
+  padding: 2%;
+  background-color: red;
+}
+
+
+
+.login{
+  font-size: 2rem;
+  padding: 2%;
+  margin-bottom: 2%;
+  background-color: green;
+}
